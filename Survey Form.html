@@ -1,0 +1,80 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta chartset:"utf-8">
+    <meta name="viewport" content="width=device-width initial-scale-1.0">
+    
+    <style>
+      body {
+        background-color:palegreen;
+      }
+      h1 {
+        text-align:center;
+      }
+      form {
+        background-color:white;
+        max-width: 500px;
+        text-align:left;
+        margin: auto;
+        padding: 30px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <form>
+      <div>
+        <label for="fname">Name</label><br>
+        <input id="fname"><br>
+      </div>
+      <div>
+        <label for="Email">Email</label><br>
+        <input id="Email"><br>
+      </div>
+      <div>
+        <label for="age">Age</label><br>
+        <input id="age"><br>
+      </div>
+      <div>
+        <label for="x">Which option best describes you?</label><br>
+        <select name="role" id="role">
+          <option value="student">Student</option>
+          <option value="intern">Intern</option>
+          <option value="professional">Professional</option>
+          <option value="other">Other</option>
+      </select>
+      </div>
+      <label for="y">Willing to study abroad?</label><br>
+      <div>
+      <input type="radio" id="y">
+      <label for="y">Yes</label><br>
+      </div>
+      <div>
+        <input type="radio" id="z">
+        <label for="z">No</label><br>
+      </div>
+      <div>
+        <input type="radio" id="a">
+        <label for="a">Maybe</label><br>
+      </div>
+      <div>
+      <label for="m">Languages and Frameworks known</label><br>
+      <input type="checkbox" id="p">
+      <label for="p">C</label><br>
+      <input type="checkbox" id="q">
+      <label for="q">C++</label><br>
+      <input type="checkbox" id="r">
+      <label for="r">Python</label><br>
+      <input type="checkbox" id="s">
+      <label for="s">JavaScript</label><br>
+      <input type="checkbox" id="t">
+      <label for="t">Angular</label><br>
+      </div>
+      <div>
+      <label for="L">Any comments or suggestions</label><br>
+      <input type="text" id="L"><br>
+      </div>
+      <input type="submit">
+    </form>
+  </body>
+</html>
